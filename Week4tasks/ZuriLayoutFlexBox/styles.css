@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+main{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sedan-cars{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em 2em 2em 2em;
+    height: 380px;
+    width: 250px;
+}
+
+.sedan-cars h1{
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    padding-bottom: 35px;
+    font-family: 'Big Shoulders Display';font-size: 22px;
+}
+
+img{
+    padding-bottom: 35px;
+}
+
+.sedan-cars p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 50px;
+    font-size: 12px;
+    font-family: 'Lexend Deca';
+}
+
+.sedan-cars button{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    padding: 10px 20px 10px 20px;
+    border: 1px solid white;
+    border-radius: 2em;
+}
+
+.suv-cars{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em 2em 2em 2em;
+    height: 380px;
+    width: 250px;
+}
+
+.suv-cars h1{
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    padding-bottom: 35px;
+    font-family: 'Big Shoulders Display';font-size: 22px;
+}
+
+.suv-cars p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom:50px;
+    font-size: 12px;
+    font-family: 'Lexend Deca';
+}
+
+.suv-cars button{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    padding: 10px 20px 10px 20px;
+    border: 1px solid white;
+    border-radius: 2em;
+}
+
+.luxury-cars{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em 2em 2em 2em;
+    height: 380px;
+    width: 250px;
+}
+
+.luxury-cars h1{
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    padding-bottom: 35px;
+    font-family: 'Big Shoulders Display';font-size: 22px;
+}
+
+.luxury-cars p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 50px;
+    font-size:12px;
+    font-family: 'Lexend Deca';
+}
+
+.luxury-cars button{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    padding: 10px 20px 10px 20px;
+    border: 1px solid white;
+    border-radius: 2em;
+}
+
+.grid-assigment{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
