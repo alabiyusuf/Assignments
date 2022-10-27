@@ -1,0 +1,13 @@
+body    {
+    background-color: antiquewhite;
+}
+
+img{
+    border: 1px solid black;
+}
+
+h3, h4 {
+    background-color: rgb(211, 204, 229, 0.5);
+    font-weight: bold;
+    width: 250px;
+}

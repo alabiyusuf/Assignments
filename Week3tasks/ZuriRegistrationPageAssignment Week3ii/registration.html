@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="/registration.css">
+</head>
+<body>
+    <header>
+        <h1>REGISTRATION PAGE</h1>
+    </header>
+
+    <main>
+        <form action="#" id="regform">
+            <fieldset>
+                <legend>Register Here:</legend>
+                First Name: <br>
+                <input type="text" name="firstname" placeholder="John" class="mailP">
+
+                    <br>
+
+                Last Name: <br>
+                <input type="text" name="lastname" placeholder="Doe" class="mailP">
+
+                    <br>
+                    
+                Phone Number: <br>
+                <input type="number" name="pnumber" class="mailP" minlength="11" maxlength="16">
+
+                <br>
+                    
+                Email: <br>
+                <input type="text" name="email" class="mailP">
+
+                <br>
+                    
+                Gender:<br>
+                <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other 
+                
+                <br>
+                    
+                Date of birth: <br>
+                <input type="date" name="dob">
+
+                <br>
+                    
+                Favorite color: <br>
+                <select name="favcolor" id="">
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="brown">Brown</option>
+                    <option value="purple">Purple</option>
+                    <option value="pink">Pink</option>
+                </select>
+            </fieldset>
+
+            <button>Submit</button>
+        </form>
+        <p>Already have an account ? Sign in <a href="./loginpage.html">Here</a></p>
+    </main>
+
+
+</body>
+</html>

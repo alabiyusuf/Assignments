@@ -1,0 +1,30 @@
+#regform    {
+    width: 400px;
+}
+.mailP{
+    width: 150px;
+}
+
+div{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 10px;
+    background-color:beige;
+    color: red;
+    
+}
+
+body{
+    background-color: darkgoldenrod;
+}
+
+#suchead1{
+    text-align: center;
+}
